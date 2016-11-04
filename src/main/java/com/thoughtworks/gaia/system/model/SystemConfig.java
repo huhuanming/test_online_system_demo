@@ -16,6 +16,9 @@ public class SystemConfig extends IdBaseModel {
     @Column(name = "open_status")
     private boolean openStatus;
 
+    public SystemConfig() {
+    }
+
     public SystemConfig(boolean status) {
         this.openStatus = status;
     }
