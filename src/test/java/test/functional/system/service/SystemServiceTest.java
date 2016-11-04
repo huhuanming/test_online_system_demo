@@ -1,9 +1,8 @@
 package test.functional.system.service;
 
-import com.netflix.discovery.converters.Auto;
 import com.thoughtworks.gaia.GaiaApplication;
 import com.thoughtworks.gaia.common.constant.EnvProfile;
-import com.thoughtworks.gaia.system.SystemService;
+import com.thoughtworks.gaia.system.service.SystemService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
